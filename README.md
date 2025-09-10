@@ -1,11 +1,57 @@
-# Sample Snack app
+# 📷 Image-to-Text Converter (Mobie App)
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+This project is a cross-platform **Image-to-Text (OCR)** app built with **React Native (frontend)** and **Flask (backend)**.  
+It allows users to upload or capture images/PDFs, process them using **Tesseract OCR**, and download the extracted text in multiple formats (Word or Text).
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+---
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+## 🚀 Features
+- Upload image or PDF files
+- Capture image directly using device camera
+- Extract text using **OCR (Tesseract)**
+- Supports multiple languages (English, French, German, Arabic, Hindi, etc.)
+- Download extracted text as `.docx` or `.txt`
+- Mobile-friendly UI with **React Native**
+- Flask backend with **Flask-CORS** support
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+---
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+## 🛠️ Tech Stack
+**Frontend**: React Native, Expo, Axios  
+**Backend**: Flask, Flask-CORS, Tesseract OCR, python-docx  
+**Other**: ngrok (for tunneling backend in development)
+
+---
+
+## 📲 Installation & Setup
+
+### 1. Backend (Flask)
+```bash
+# Clone repo
+git clone https://github.com/your-username/image-to-text-ocr.git
+cd image-to-text-ocr/backend
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # (Linux/Mac)
+venv\Scripts\activate     # (Windows)
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run Flask server
+flask run
+
+
+Frontend (React Native)
+
+cd ../frontend
+
+# Install dependencies
+npm install
+
+# Start Expo development server
+npx expo start
+
+
+
