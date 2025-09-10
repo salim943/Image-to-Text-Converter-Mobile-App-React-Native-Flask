@@ -1,11 +1,11 @@
-# 📷 Image-to-Text Converter (Mobie App)
+# Image-to-Text Converter (Mobie App)
 
 This project is a cross-platform **Image-to-Text (OCR)** app built with **React Native (frontend)** and **Flask (backend)**.  
 It allows users to upload or capture images/PDFs, process them using **Tesseract OCR**, and download the extracted text in multiple formats (Word or Text).
 
 ---
 
-## 🚀 Features
+## Features
 - Upload image or PDF files
 - Capture image directly using device camera
 - Extract text using **OCR (Tesseract)**
@@ -16,14 +16,14 @@ It allows users to upload or capture images/PDFs, process them using **Tesseract
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 **Frontend**: React Native, Expo, Axios  
 **Backend**: Flask, Flask-CORS, Tesseract OCR, python-docx  
 **Other**: ngrok (for tunneling backend in development)
 
 ---
 
-## 📲 Installation & Setup
+## Installation & Setup
 
 ### 1. Backend (Flask)
 ```bash
