@@ -25,16 +25,8 @@ It allows users to upload or capture images/PDFs, process them using **Tesseract
 
 ## Installation & Setup
 
-### 1. Backend (Flask)
+### Backend (Flask)
 ```bash
-# Clone repo
-git clone https://github.com/your-username/image-to-text-ocr.git
-cd image-to-text-ocr/backend
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # (Linux/Mac)
-venv\Scripts\activate     # (Windows)
 
 # Install dependencies
 pip install -r requirements.txt
@@ -43,9 +35,8 @@ pip install -r requirements.txt
 flask run
 
 
-Frontend (React Native)
-
-cd ../frontend
+### Frontend (React Native)
+```bash
 
 # Install dependencies
 npm install
