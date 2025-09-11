@@ -33,7 +33,7 @@ pip install -r requirements.txt
 
 # Run Flask server
 flask run
-
+```
 
 ### Frontend (React Native)
 ```bash
@@ -43,6 +43,9 @@ npm install
 
 # Start Expo development server
 npx expo start
+```
 
+## Download
 
+- [Download APK](https://www.salimwireless.com/p/external-links.html#link12)
 
